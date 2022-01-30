@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
 }
@@ -32,7 +35,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.features {
+  background: #059A98;
+}
+
+a{
+  text-decoration: none;
+  color: beige;
+}
+a:hover{
+  color: inherit;
+  opacity: 0.8;
+}
+
+h5{
+  color: #059A98;
 }
